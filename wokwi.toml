@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/thermoGuard.uf2'
+elf = 'build/thermoGuard.elf'
