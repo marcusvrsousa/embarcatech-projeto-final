@@ -194,7 +194,7 @@ int main() {
     float temperatura, umidade;
 
     while (true) {
-        printf("Iniciando leitura do sensor DHT22...\n");
+        printf("Iniciando leitura do sensor DHT22 \n");
         enviar_pulso_inicial();
 
         if (ler_dados_dht22(dados)) {
@@ -217,7 +217,7 @@ int main() {
             printf("Erro ao ler o DHT22\n");
         }
 
-        sleep_ms(3000); // Aguarda 10 segundos entre leituras
+        sleep_ms(3000); // Aguarda 3 segundos entre leituras
     }
 
     return 0;
